@@ -20,5 +20,8 @@ while True:
         print("👍 great work on", habit + "!")
     else:
         print("❌ no worries try again tomarow")
-        again = input("")
+        again = input("\nType 'done' to exit or press enter to track again tomarow:")
+        if again.lower() == "done":
+            print("see you tomorrow," +name+ "!")
+
         
